@@ -4,6 +4,7 @@
     <title>Netari.fr - Site en Maintenance</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
+        /* Variables CSS */
         :root {
             --primary-color: #007ACC;
             --secondary-color: #FDBC71;
@@ -39,6 +40,16 @@
                         var(--dark-bg);
         }
 
+        .maintenance-container {
+            max-width: 600px;
+            text-align: center;
+            padding: 40px;
+            background: var(--card-bg);
+            border-radius: var(--border-radius);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            animation: fadeInUp 0.6s ease;
+        }
+
         @keyframes fadeInUp {
             from {
                 opacity: 0;
@@ -48,6 +59,16 @@
                 opacity: 1;
                 transform: translateY(0);
             }
+        }
+
+        .logo {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 30px;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
 
         .maintenance-icon {
@@ -205,11 +226,9 @@
                 width: 50px;
                 height: 50px;
             }
-
-            .site-logo {
-                max-width: 70px;
+            .logo {
+                font-size: 1.8rem;
             }
-
             .refresh-button {
                 padding: 10px 20px;
                 font-size: 0.9rem;
@@ -221,24 +240,23 @@
                 margin: 10px;
                 padding: 20px 15px;
             }
-
             h1 {
                 font-size: 1.8rem;
             }
-
             p {
                 font-size: 0.9rem;
             }
-
-            .site-logo {
-                max-width: 60px;
+            .logo {
+                font-size: 1.5rem;
             }
         }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="maintenance-container">
+        <div class="logo">Netari.fr</div>
+        
         <div class="maintenance-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z"/>
