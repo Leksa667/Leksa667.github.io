@@ -39,16 +39,6 @@
                         var(--dark-bg);
         }
 
-        .maintenance-container {
-            max-width: 600px;
-            text-align: center;
-            padding: 40px;
-            background: var(--card-bg);
-            border-radius: var(--border-radius);
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-            animation: fadeInUp 0.6s ease;
-        }
-
         @keyframes fadeInUp {
             from {
                 opacity: 0;
@@ -58,14 +48,6 @@
                 opacity: 1;
                 transform: translateY(0);
             }
-        }
-
-        .site-logo {
-            max-width: 90px;
-            width: 100%;
-            height: auto;
-            display: block;
-            margin: 0 auto 30px;
         }
 
         .maintenance-icon {
@@ -256,10 +238,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="maintenance-container">
-        <img src="https://raw.githubusercontent.com/Leksa667/Leksa667.github.io/main/logo.png"
-             alt="Netari.fr Logo" class="site-logo" crossorigin="anonymous">
-        
+    
         <div class="maintenance-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z"/>
