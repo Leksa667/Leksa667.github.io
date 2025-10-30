@@ -62,14 +62,10 @@
             }
         }
 
-        .logo {
-            font-size: 2rem;
-            font-weight: 700;
+        .site-logo {
+            max-width: 180px; /* Adjust as needed */
+            height: auto;
             margin-bottom: 30px;
-            background: var(--gradient-primary);
-            -webkit-background-clip: text;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
         }
 
         .maintenance-icon {
@@ -163,6 +159,25 @@
             }
         }
 
+        .refresh-button {
+            display: inline-block;
+            padding: 12px 25px;
+            background: var(--gradient-primary);
+            color: white;
+            text-decoration: none;
+            border: none;
+            border-radius: 50px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 30px;
+        }
+
+        .refresh-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0, 122, 204, 0.4);
+        }
+
         .contact-info {
             margin-top: 40px;
             padding-top: 30px;
@@ -208,13 +223,36 @@
                 width: 50px;
                 height: 50px;
             }
+            .site-logo {
+                max-width: 150px;
+            }
+            .refresh-button {
+                padding: 10px 20px;
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .maintenance-container {
+                margin: 10px;
+                padding: 20px 15px;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+            p {
+                font-size: 0.9rem;
+            }
+            .site-logo {
+                max-width: 120px;
+            }
         }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="maintenance-container">
-        <div class="logo">Netari.fr</div>
+        <img src="{{ url_for('static', filename='img/logo.png') }}" alt="Netari.fr Logo" class="site-logo">
         
         <div class="maintenance-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -234,6 +272,8 @@
             <div class="dot"></div>
             <div class="dot"></div>
         </div>
+
+        <button class="refresh-button" onclick="location.reload()">Actualiser la page</button>
 
         <div class="contact-info">
             <p>Pour toute urgence, vous pouvez me contacter :</p>
