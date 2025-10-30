@@ -66,7 +66,6 @@
             height: auto;
             display: block;
             margin: 0 auto 30px;
-            object-fit: contain;
         }
 
         .maintenance-icon {
@@ -258,8 +257,8 @@
 </head>
 <body>
     <div class="maintenance-container">
-        <img src="https://media.discordapp.net/attachments/1251174732271849476/1433496691205738676/logo.png"
-             alt="Netari.fr Logo" class="site-logo">
+        <img src="https://raw.githubusercontent.com/Leksa667/Leksa667.github.io/main/logo.png"
+             alt="Netari.fr Logo" class="site-logo" crossorigin="anonymous">
         
         <div class="maintenance-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
