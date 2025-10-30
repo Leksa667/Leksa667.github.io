@@ -61,13 +61,12 @@
         }
 
         .site-logo {
-            max-width: 90px; /* 2x plus petit (anciennement 180px) */
+            max-width: 90px;
             width: 100%;
             height: auto;
             display: block;
             margin: 0 auto 30px;
-            background: transparent;
-            image-rendering: auto;
+            object-fit: contain;
         }
 
         .maintenance-icon {
@@ -225,9 +224,11 @@
                 width: 50px;
                 height: 50px;
             }
+
             .site-logo {
-                max-width: 150px;
+                max-width: 70px;
             }
+
             .refresh-button {
                 padding: 10px 20px;
                 font-size: 0.9rem;
@@ -239,14 +240,17 @@
                 margin: 10px;
                 padding: 20px 15px;
             }
+
             h1 {
                 font-size: 1.8rem;
             }
+
             p {
                 font-size: 0.9rem;
             }
+
             .site-logo {
-                max-width: 120px;
+                max-width: 60px;
             }
         }
     </style>
@@ -254,7 +258,7 @@
 </head>
 <body>
     <div class="maintenance-container">
-        <img src="https://raw.githubusercontent.com/Leksa667/Leksa667.github.io/refs/heads/main/logo.png"
+        <img src="https://raw.githubusercontent.com/Leksa667/Leksa667.github.io/main/logo.png"
              alt="Netari.fr Logo" class="site-logo">
         
         <div class="maintenance-icon">
