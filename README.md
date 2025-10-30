@@ -258,7 +258,7 @@
 </head>
 <body>
     <div class="maintenance-container">
-        <img src="https://raw.githubusercontent.com/Leksa667/Leksa667.github.io/main/logo.png"
+        <img src="https://media.discordapp.net/attachments/1251174732271849476/1433496691205738676/logo.png"
              alt="Netari.fr Logo" class="site-logo">
         
         <div class="maintenance-icon">
