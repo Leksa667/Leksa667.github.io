@@ -1,10 +1,10 @@
+<!doctype html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <title>Netari.fr - Site en Maintenance</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        /* Variables CSS */
         :root {
             --primary-color: #007ACC;
             --secondary-color: #FDBC71;
@@ -62,9 +62,13 @@
         }
 
         .site-logo {
-            max-width: 180px; /* Adjust as needed */
+            max-width: 90px; /* 2x plus petit (anciennement 180px) */
+            width: 100%;
             height: auto;
-            margin-bottom: 30px;
+            display: block;
+            margin: 0 auto 30px;
+            background: transparent;
+            image-rendering: auto;
         }
 
         .maintenance-icon {
@@ -251,7 +255,8 @@
 </head>
 <body>
     <div class="maintenance-container">
-        <img src="https://raw.githubusercontent.com/Leksa667/Leksa667.github.io/refs/heads/main/logo.png" alt="Netari.fr Logo" class="site-logo">
+        <img src="https://raw.githubusercontent.com/Leksa667/Leksa667.github.io/refs/heads/main/logo.png"
+             alt="Netari.fr Logo" class="site-logo">
         
         <div class="maintenance-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
