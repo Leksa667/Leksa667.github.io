@@ -276,7 +276,7 @@
             <div class="dot"></div>
         </div>
 
-        <button class="refresh-button" onclick="location.reload()">Actualiser la page</button>
+        <button class="refresh-button" onclick="window.location.href='https://netari.fr'">Actualiser la page</button>
 
         <div class="contact-info">
             <p>Pour toute urgence, vous pouvez me contacter :</p>
