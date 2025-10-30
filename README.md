@@ -251,7 +251,7 @@
 </head>
 <body>
     <div class="maintenance-container">
-        <img src="https://raw.githubusercontent.com/Leksa667/Leksa667.github.io/refs/heads/main/logo.png" alt="Netari.fr Logo" class="site-logo">
+        <img src="[https://raw.githubusercontent.com/Leksa667/Leksa667.github.io/refs/heads/main/logo.png](https://github.com/Leksa667/Leksa667.github.io/blob/main/logo.png?raw=true)" alt="Netari.fr Logo" class="site-logo">
         
         <div class="maintenance-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
